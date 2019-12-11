@@ -1,0 +1,75 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background: #052D68;
+  color: #F0E0C9;
+  font-family: "Raleway", sans-serif;
+  background-image: url("https://cdn.glitch.com/c494a523-58bc-40a8-8755-276e04115380%2Fbiel-morro-ZpKxweXHqkc-unsplash.jpg?v=1575874388911");
+  background-image: fixed;
+}
+
+h1 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+a {
+  color: #F0E0C9;
+  text-decoration: none;
+}
+
+.web-logo1 {
+  margin: 0;
+}
+
+.web-logo2 {
+  margin-top: 5px;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  border: 2px;
+  border-color: blue;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-nav li a:hover {
+  font-weight: 900;
+  color: orange;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.bio-container {
+display: flex;
+justify-content: space-around;
+}
+
+.bio p {
+text-align: justify;
+margin-top: 35px;
+width: 600px;
+}
+
+.video-2 {
+margin-top: 20px;
+}
+
+.gallery {
+display:flex;
+justify-content:space-around;
+}
